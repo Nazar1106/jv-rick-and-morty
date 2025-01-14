@@ -1,7 +1,6 @@
 package mate.academy.rickandmorty.repository;
 
 import java.util.List;
-import mate.academy.rickandmorty.dto.ResponseDto;
 import mate.academy.rickandmorty.entity.Character;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
@@ -9,5 +8,5 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface CharacterRepository extends JpaRepository<Character, Long> {
 
-    List<ResponseDto> findAllByName(String name);
+    List<Character> findAllByName(String name);
 }

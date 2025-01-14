@@ -45,6 +45,7 @@ public class CharacterService {
     }
 
     public List<ResponseDto> findCharactersByName(String name) {
-        return repository.findAllByName(name);
+        List<Character> allByName = repository.findAllByName(name);
+        return characterMapper.toDtos(allByName);
     }
 }
