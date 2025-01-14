@@ -1,0 +1,14 @@
+todo: 1) I need 3 endpoints (for Character, Episode, Location);
+todo: 2) I need receive all data from API and save to H2???
+- ANSWER: don't use H2 database, receive data from api to MySQL
+todo: 3) WHERE IS API KEY?? HOW BUILD URI??
+todo: 4) How to receive data correctly?
+
+todo: REALIZE FUNCTIONALITY:
+first method: +
+- I need generate random ID and retrieve specific character by this id and save it to db.
+
+
+todo: 5) How write all data from pages +
+
+todo: 6) How to optimize insertions?
